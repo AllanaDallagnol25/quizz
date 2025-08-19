@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url(\'https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap\');
 
 :root {
-    --cor-fundo: #ba7f3b;
-    --cor-principal: #3f2b0e ;
-    --cor-secundaria: #2c1e11;
-    --cor-destaque: #ede10a;
-    --cor-texto: #D7F9FF;
+    --cor-fundo: #2C3E50;
+    --cor-principal: #34495E;
+    --cor-secundaria: #7F8C8D;
+    --cor-destaque: #E74C3C;
+    --cor-texto: #ECF0F1;
 }
   
 body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
-    font-family: 'Inter', sans-serif;
+    font-family: \'Inter\', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,10 +24,11 @@ body {
     max-width: 600px;
     text-align: center;
     padding: 20px;
+    border-radius: 15px;
 }
 
 h1, .caixa-perguntas, .caixa-resultado{
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: \'Chakra Petch\', sans-serif;
 }
 
 h1 {
@@ -61,3 +62,5 @@ button:hover {
     flex-direction: column;
     gap: 10px;
 }
+
+
