@@ -1,153 +1,138 @@
 export const perguntas = [
     {
-        enunciado: "Ao emergir do portal espacial, você se depara com uma estação espacial abandonada, com luzes piscando e sons estranhos. Qual o primeiro pensamento?",
+        enunciado: "Ao terminar os estudos, você se vê diante da grande questão: qual será o próximo passo da sua vida?",
         alternativas: [
             {
-                texto: "Isso é perigoso!",
+                texto: "Seguir diretamente para a faculdade.",
                 afirmacao: [
-                    "No início ficou com medo do que poderia estar escondido naquela estação.",
-                    "Achou assustador pensar em quem ou o que viveu ali antes."
+                    "Você decidiu investir em conhecimento e dar continuidade aos estudos, acreditando que a base acadêmica será um diferencial para conquistar boas oportunidades no futuro.",
+                    "Mesmo sabendo que a jornada não será fácil, entende que se dedicar a uma área específica permitirá que você se aprofunde em um tema e construa uma carreira sólida e respeitada.",
+                    "Percebe também que a vida universitária pode abrir portas não apenas para o mercado de trabalho, mas também para amizades, experiências e aprendizados que vão muito além da sala de aula."
                 ],
                 proxima: 1,
             },
             {
-                texto: "Isso é uma oportunidade!",
+                texto: "Dar um tempo e começar a trabalhar.",
                 afirmacao: [
-                    "Ficou curioso para explorar cada canto da estação.",
-                    "Pensou que poderia encontrar tecnologia importante para sua jornada."
+                    "Você prefere colocar os pés na realidade prática antes de mergulhar novamente em livros e provas.",
+                    "Decidiu que ganhar experiência no mercado de trabalho pode ensinar tanto quanto a sala de aula, além de permitir maior independência financeira.",
+                    "Apesar dos desafios, acredita que começar a trabalhar cedo ajudará a amadurecer, lidar com responsabilidades e até clarear quais caminhos profissionais seguir no futuro."
                 ],
-                proxima: 2,
+                proxima: 2, // este agora leva para uma nova pergunta antes de casar
             },
         ]
     },
     {
-        enunciado: "Explorar uma estação espacial desconhecida pode ser aterrorizante, e foi pensando nisso que um explorador veterano deixou registros sobre como sobreviver. Você encontra um log de dados com instruções enigmáticas. O que faz?",
+        enunciado: "Alguns anos depois, você começa a refletir sobre relacionamentos e família. O que pensa sobre casar?",
         alternativas: [
             {
-                texto: "Seguir as instruções do log ao pé da letra.",
+                texto: "Casar e construir uma família.",
                 afirmacao: [
-                    "Conseguiu descobrir atalhos úteis nos dutos de ventilação.",
-                    "Percebeu que as dicas ajudavam a evitar perigos escondidos.",
-                    "As instruções eram misteriosas, mas simplificaram muito sua jornada."
+                    "Você acredita que dividir a vida com alguém é uma das maiores fontes de alegria e segurança que uma pessoa pode ter.",
+                    "Na sua visão, o casamento representa parceria, cumplicidade e a chance de enfrentar as dificuldades de forma conjunta.",
+                    "Para você, formar uma família significa não apenas construir laços afetivos, mas também deixar um legado, transmitindo valores, sonhos e tradições às próximas gerações."
                 ],
                 proxima: 3,
             },
             {
-                texto: "Ignorar as instruções e confiar na sua própria intuição.",
+                texto: "Não casar, mas viver relacionamentos livres.",
                 afirmacao: [
-                    "Sentiu mais liberdade ao explorar do seu jeito.",
-                    "Achou que era mais empolgante descobrir por conta própria, mesmo que levasse mais tempo.",
-                    "Ficou desconfiado de quem poderia ter escrito o log e preferiu não arriscar."
+                    "Você prefere a liberdade de experimentar diferentes fases da vida sem se prender a compromissos formais.",
+                    "Acredita que relacionamentos podem ser profundos e significativos mesmo sem a necessidade de um papel ou uma cerimônia.",
+                    "Para você, a verdadeira felicidade está em viver o presente de maneira autêntica, aproveitando as conexões sem se sentir limitado por padrões sociais."
                 ],
-                proxima: 4,
+                proxima: 4, // vai para uma nova pergunta exclusiva
             },
         ]
     },
     {
-        enunciado: "Seguindo pelos corredores, você encontra um campo de asteroides denso. É preciso atravessá-lo para prosseguir. O que faz?",
+        enunciado: "Você decidiu começar a trabalhar cedo. Como deseja guiar sua vida profissional?",
         alternativas: [
             {
-                texto: "Navegar cuidadosamente, desviando dos asteroides.",
+                texto: "Focar em estabilidade e crescer dentro da empresa.",
                 afirmacao: [
-                    "Conseguiu atravessar usando criatividade e paciência.",
-                    "Percebeu que pensar em soluções práticas era fundamental para sobreviver.",
-                    "Sentiu orgulho de ter usado apenas suas habilidades de pilotagem."
+                    "Você valoriza segurança e acredita que o crescimento passo a passo dentro de uma empresa é uma forma sólida de construir sua carreira.",
+                    "Ter um emprego fixo oferece tranquilidade para planejar o futuro com mais segurança.",
+                    "Mesmo que isso signifique abrir mão de aventuras, você sente que consistência pode levar ao sucesso a longo prazo."
                 ],
-                proxima: 3,
+                proxima: 3, // vai para o fluxo do casamento
             },
             {
-                texto: "Procurar uma rota alternativa através de um buraco de minhoca próximo.",
+                texto: "Experimentar diferentes áreas e buscar liberdade.",
                 afirmacao: [
-                    "Evitou riscos desnecessários com os asteroides.",
-                    "Descobriu novas rotas e atalhos pelo caminho.",
-                    "Apesar de demorar mais, sentiu que estava mais seguro."
+                    "Você acredita que a vida profissional deve ser explorada sem pressa, testando diferentes caminhos.",
+                    "Mesmo que a estabilidade demore a chegar, você valoriza o aprendizado que cada nova experiência pode trazer.",
+                    "A variedade de vivências é, para você, um investimento em autoconhecimento e independência."
                 ],
-                proxima: 4,
+                proxima: 3, // também segue para o casamento
             },
         ]
     },
     {
-        enunciado: "Ao avançar, você encontra uma civilização alienígena que fala sobre um artefato cósmico escondido. Como se posiciona?",
+        enunciado: "Ao pensar sobre filhos, qual decisão toma?",
         alternativas: [
             {
-                texto: "Defende que o artefato deve ser compartilhado entre todas as espécies.",
+                texto: "Ter filhos e dedicar-se a educá-los.",
                 afirmacao: [
-                    "Passou a ser visto como alguém justo e confiável.",
-                    "Conquistou aliados que o ajudaram a explorar a galáxia."
+                    "Você enxerga os filhos como uma oportunidade de perpetuar sua história e passar adiante seus ensinamentos.",
+                    "Embora saiba que criar uma criança exige paciência, renúncia e muito esforço, acredita que o amor recebido em troca compensa qualquer dificuldade.",
+                    "Na sua visão, educar os filhos não é apenas prover, mas também guiar, inspirar e preparar alguém para enfrentar o mundo."
                 ],
-                proxima: 5,
+                proxima: 6,
             },
             {
-                texto: "Prefere procurar o artefato sozinho para não dividir nada.",
+                texto: "Não ter filhos, focando em outras realizações.",
                 afirmacao: [
-                    "Sua ambição chamou atenção, mas também despertou desconfiança.",
-                    "Seguiu mais independente e livre de compromissos."
+                    "Você compreende que a vida oferece muitas formas de realização, e ter filhos não precisa ser a única delas.",
+                    "Prefere investir tempo e energia em projetos pessoais, viagens, amizades, carreira ou até mesmo em causas sociais que lhe tragam propósito.",
+                    "Na sua visão, felicidade é algo individual e pode ser encontrada tanto no cuidado com outras pessoas quanto na busca por sonhos pessoais."
                 ],
                 proxima: 6,
             },
         ]
     },
     {
-        enunciado: "O caminho até o artefato é cheio de anomalias espaciais. Qual estratégia adotar?",
+        enunciado: "Você optou por viver relacionamentos livres. Em certo momento, surge a reflexão: como deseja conduzir sua vida emocional?",
         alternativas: [
             {
-                texto: "Seguir cuidadosamente, observando cada detalhe do ambiente.",
+                texto: "Construir uma rede de amigos que funcione como família escolhida.",
                 afirmacao: [
-                    "Atenção redobrada permitiu evitar vários perigos.",
-                    "Percebeu que paciência era a chave para continuar avançando."
+                    "Você acredita que família não é apenas sangue, mas sim os laços que criamos ao longo da vida.",
+                    "Amizades profundas e sinceras são, para você, a verdadeira base de apoio e felicidade.",
+                    "Essa visão amplia sua ideia de pertencimento, permitindo sentir-se completo mesmo sem seguir modelos tradicionais."
                 ],
-                proxima: 5,
+                proxima: 3, // segue para filhos
             },
             {
-                texto: "Atravessar as anomalias e confiar na sorte.",
+                texto: "Priorizar conquistas pessoais e manter independência.",
                 afirmacao: [
-                    "Sobreviveu por pouco, mas sentiu a adrenalina da aventura.",
-                    "Entendeu que correr riscos pode ser excitante, mas perigoso."
+                    "Você acredita que seu crescimento individual é prioridade.",
+                    "Prefere manter o foco em experiências próprias, descobertas e realizações sem depender de vínculos afetivos fixos.",
+                    "Para você, felicidade é viver intensamente cada momento sem amarras."
                 ],
-                proxima: 6,
+                proxima: 6, // leva para final
             },
         ]
     },
     {
-        enunciado: "Chegando perto do artefato, você precisa enfrentar um último desafio: resolver um enigma deixado pelos antigos guardiões cósmicos. Qual atitude tomar?",
+        enunciado: "Depois de todas essas escolhas, você olha para trás e pensa: o que realmente importa?",
         alternativas: [
             {
-                texto: "Tentar resolver o enigma com lógica e paciência.",
+                texto: "Ter construído laços fortes com pessoas que ama.",
                 afirmacao: [
-                    "Mostrou inteligência e conquistou o respeito dos guardiões.",
-                    "Desvendou os segredos que estavam escondidos há milênios."
-                ],
-                proxima: 7,
-            },
-            {
-                texto: "Forçar a passagem sem se preocupar com o enigma.",
-                afirmacao: [
-                    "Apressado, conseguiu entrar, mas despertou defesas perigosas.",
-                    "Descobriu que nem sempre ignorar os sinais é o melhor caminho."
-                ],
-                proxima: 7,
-            },
-        ]
-    },
-    {
-        enunciado: "Ao final da jornada, você encontra o artefato cósmico. Mas ele está selado. O que faz?",
-        alternativas: [
-            {
-                texto: "Usar ferramentas tecnológicas para abrir o selo.",
-                afirmacao: [
-                    "Descobriu conhecimentos cósmicos e decidiu compartilhar sua descoberta com a federação.",
-                    "Percebeu que sua persistência foi a maior recompensa."
+                    "Ao refletir sobre sua vida, percebe que nenhum sucesso profissional ou conquista material teve mais valor do que as conexões humanas.",
+                    "Entende que os momentos de afeto, apoio e convivência com família e amigos foram os que realmente marcaram sua trajetória.",
+                    "Para você, o verdadeiro sentido da vida está no amor compartilhado e nas lembranças criadas ao lado de quem esteve ao seu lado."
                 ],
             },
             {
-                texto: "Deixar o artefato selado, acreditando que o mistério é mais valioso que o poder.",
+                texto: "Ter seguido seus próprios sonhos sem se prender às expectativas.",
                 afirmacao: [
-                    "Saiu da galáxia com um sentimento de sabedoria e respeito pelos segredos antigos.",
-                    "Entendeu que nem todo poder precisa ser conquistado para ter valor."
+                    "Ao olhar para trás, sente orgulho por não ter vivido a vida que os outros esperavam de você, mas sim a vida que realmente desejava.",
+                    "Mesmo diante de críticas ou julgamentos, manteve-se fiel aos seus valores e buscou experiências que refletissem sua essência.",
+                    "Para você, a liberdade de ser quem realmente é foi a sua maior conquista, provando que felicidade está em viver sua própria verdade."
                 ],
             },
         ]
     }
 ];
-
-
